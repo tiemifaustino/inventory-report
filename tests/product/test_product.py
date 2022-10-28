@@ -1,4 +1,4 @@
-# from inventory_report.inventory.product import Product
+# from inventory_report.inventory.product import Product - iniciando projeto
 
 
 def test_cria_produto():
