@@ -4,6 +4,7 @@ from inventory_report.reports.simple_report import SimpleReport
 
 
 class CompleteReport(SimpleReport):
+    @staticmethod
     def generate(product_list):
         products = SimpleReport.generate(product_list)
         companies = CompleteReport.get_product_list_by_company(product_list)
