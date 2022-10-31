@@ -25,3 +25,10 @@ class Inventory:
             return SimpleReport.generate(product_list)
         if type == "completo":
             return CompleteReport.generate(product_list)
+
+
+"""
+Source:
+Extensão de arquivo em python
+- Link: https://acervolima.com/como-obter-extensao-de-arquivo-em-python/
+"""
